@@ -1,0 +1,32 @@
+{
+  "name": "ideal-core",
+  "version": "1.1.0",
+  "description": "Api RESTful do projeto iDeal",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rapheer/iDeal-core.git"
+  },
+  "author": "Apollo Systems",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rapheer/iDeal-core/issues"
+  },
+  "homepage": "https://github.com/Rapheer/iDeal-core#readme",
+  "devDependencies": {
+    "bcrypt": "^0.8.7",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jwt-simple": "^0.5.0",
+    "mongoose": "^4.5.3",
+    "morgan": "^1.7.0",
+    "mysql": "^2.11.1"
+  },
+  "dependencies": {
+    "node": "0.0.0"
+  }
+}
